@@ -2,47 +2,60 @@
 <html lang="tr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Dashboard Page</title>
 </head>
 
 <body>
     <div class="container">
-        <div>
-            <div>
-                <div>
-                    <h3>TOPLAM SİPARİŞ</h3>
-                    <div><span>26.12.2022</span> - <span>01.01.2023</span></div>
+        <div class="row1">
+            <div class="row1-leftside">
+                <div class="row1-leftside-header">
+                    <div>
+                        <h3>TOPLAM SİPARİŞ</h3>
+                        <div><span>26.12.2022</span> - <span>01.01.2023</span></div>
+                    </div>
+                    <div>
+                        <div>
+                            <div><span>67</span> Sipariş</div>
+                            <div><span>45</span> Adet</div>
+                            <div><span>-67%</span></div>
+                        </div>
+                        <div>
+                            <div><span>67</span> Ürün</div>
+                            <div><span>45</span> Adet</div>
+                            <div><span>-67%</span></div>
+                        </div>
+                        <div><span>125.00</span>TL</div>
+                        <div><span>45</span> Adet</div>
+                        <div><span>-67%</span></div>
+                    </div>
                 </div>
-                <div>
-                    <div>
-                        <div><span>67</span> Sipariş</div>
-                        <div><span>45</span> Adet</div>
-                        <div><span>-67%</span></div>
-                    </div>
-                    <div>
-                        <div><span>67</span> Ürün</div>
-                        <div><span>45</span> Adet</div>
-                        <div><span>-67%</span></div>
-                    </div>
-                    <div><span>125.00</span>TL</div>
-                    <div><span>45</span>Adet</div>
-                    <div><span>-67%</span></div>
+
+                <div class="row1-leftside-table"></div>
+                <div class="row1-leftside-select">
+                    <select name="Son 7 Gün" id=""></select>
+                    <select name="Adete Göre Kıyasla" id=""></select>
                 </div>
             </div>
-            <div>
-                <div>
-                    <h3>GÜNÜN SAATLERİNE GÖRE SİPARİŞLER</h3>
-                    <div><span>26.12.2022</span> - <span>01.01.2023</span></div>
+
+            <div class="row1-rightside">
+                <div class="row1-rightside-header">
+                    <div>
+                        <h3>GÜNÜN SAATLERİNE GÖRE SİPARİŞLER</h3>
+                        <div><span>26.12.2022</span> - <span>01.01.2023</span></div>
+                    </div>
+                    <div><span>67</span> Adet</div>
                 </div>
-                <div><span>67</span>Adet</div>
+                <div class="row1-rightside-table"></div>
+                <div class="row1-rightside-select">
+                    <select name="Son 7 Gün" id=""></select>
+                </div>
             </div>
         </div>
     </div>
-
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.3/chart.min.js"></script>
 </body>
