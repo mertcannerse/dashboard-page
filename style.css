@@ -55,3 +55,27 @@
   justify-content: space-between;
   border-bottom: 1px dashed #5a5e9a;
 }
+
+.row1-leftside-select {
+  padding: 5px;
+  display: flex;
+}
+.row1-leftside-select div {
+  padding: 5px;
+}
+
+.row1-leftside-select select {
+  border: 0;
+}
+
+.row1-rightside-select {
+  padding: 5px;
+  display: flex;
+}
+.row1-rightside-select div {
+  padding: 5px;
+}
+
+.row1-rightside-select select {
+  border: 0;
+}
