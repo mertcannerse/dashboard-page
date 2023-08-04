@@ -79,3 +79,18 @@
 .row1-rightside-select select {
   border: 0;
 }
+
+.letfside-table {
+  height: 200px;
+}
+
+.row1-leftside-table {
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+td {
+  width: 170px;
+  height: 40px;
+  align-items: center;
+}
