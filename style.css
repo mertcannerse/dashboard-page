@@ -65,7 +65,7 @@
 }
 
 .row1-leftside-select select {
-  border: 0;
+  border: none;
 }
 
 .row1-rightside-select {
@@ -93,4 +93,10 @@ td {
   width: 170px;
   height: 40px;
   align-items: center;
+}
+
+canvas {
+  width: 100px;
+  height: 17px;
+  margin-right: 40px;
 }

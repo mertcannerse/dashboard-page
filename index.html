@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <title>Dashboard Page</title>
 </head>
 
@@ -62,7 +64,7 @@
                                 <td><span>32</span></td>
                                 <td><span>500.00</span> TL</td>
                                 <td><span>%13.79</span></td>
-                                <td><span>Grafik</span></td>
+                                <td><canvas id="trendyol"></canvas></td>
                                 <td><span>24</span> adet</td>
                             </tr>
                             <tr>
@@ -71,7 +73,7 @@
                                 <td><span>32</span></td>
                                 <td><span>500.00</span> TL</td>
                                 <td><span>%13.79</span></td>
-                                <td><span>Grafik</span></td>
+                                <td><canvas id="hepsiBurada"></canvas></td>
                                 <td><span>24</span> adet</td>
 
                             </tr>
@@ -81,7 +83,7 @@
                                 <td><span>32</span></td>
                                 <td><span>500.00</span> TL</td>
                                 <td><span>%13.79</span></td>
-                                <td><span>Grafik</span></td>
+                                <td><canvas id="amazon"></canvas></td>
                                 <td><span>24</span> adet</td>
 
                             </tr>
@@ -91,7 +93,7 @@
                                 <td><span>32</span></td>
                                 <td><span>500.00</span> TL</td>
                                 <td><span>%13.79</span></td>
-                                <td><span>Grafik</span></td>
+                                <td><canvas id="cicekSepeti"></canvas></td>
                                 <td><span>24</span> adet</td>
 
                             </tr>
@@ -101,7 +103,7 @@
                                 <td><span>32</span></td>
                                 <td><span>500.00</span> TL</td>
                                 <td><span>%13.79</span></td>
-                                <td><span>Grafik</span></td>
+                                <td><canvas id="n11"></canvas></td>
                                 <td><span>24</span> adet</td>
                             </tr>
                         </table>
@@ -136,7 +138,8 @@
 
             </div>
         </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.3/chart.min.js"></script>
+        <script src="row1-leftside-graphics.js"></script>
+
 </body>
 
 </html>
