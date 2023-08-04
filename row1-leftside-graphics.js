@@ -56,7 +56,7 @@ const data1 = {
   datasets: [
     {
       label: "",
-      data: [60, 40, 50, 80, 90, 70, 60, 40, 50, 70, 60, 40, 400],
+      data: [60, 40, 50, 80, 90, 70, 60, 40, 50, 70, 60, 80, 400],
       fill: false,
       borderColor: "#F87600",
       tension: 0.1,
