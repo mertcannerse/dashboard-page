@@ -80,11 +80,11 @@
   border: 0;
 }
 
-.letfside-table {
+.letfside-tablerow {
   height: 200px;
 }
 
-.row1-leftside-table {
+.row1-leftside-tablerow {
   max-height: 180px;
   overflow-y: auto;
 }
