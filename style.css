@@ -138,3 +138,25 @@ h3 {
   font-family: "Poppins", sans-serif;
   color: #5a5e9a;
 }
+
+td:nth-child(n + 2) span {
+  margin-left: 20px;
+}
+
+td:nth-child(3) span {
+  margin-left: 35px;
+}
+
+tr td:last-child span {
+  margin: 10px;
+}
+
+table.letfside-tablerow {
+  border-collapse: collapse;
+}
+
+table.letfside-tablerow tr,
+td {
+  border-bottom: 1px solid #efefef;
+  border-collapse: collapse;
+}
