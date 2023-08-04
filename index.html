@@ -1,67 +1,127 @@
 <!DOCTYPE html>
 <html lang="tr">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Dashboard Page</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="row1">
-            <div class="row1-leftside">
-                <div class="row1-leftside-header">
-                    <div class="row1-leftside-header-leftside">
-                        <h3>TOPLAM SİPARİŞ</h3>
-                        <div><span>26.12.2022</span> - <span>01.01.2023</span></div>
-                    </div>
-                    <div class="row1-leftside-header-rightside">
-                        <div style="border-right:1px solid #000; 
-                         margin-right: 20px ; padding: 20px;">
-                            <div><span>67</span> Sipariş</div>
-                            <div><span>45</span> Adet</div>
-                            <div><span>-67%</span></div>
-                        </div>
-                        <div style="border-right:1px solid #000 ;
-                        margin-right: 20px ; padding: 20px;">
-                            <div><span>67</span> Ürün</div>
-                            <div><span>45</span> Adet</div>
-                            <div><span>-67%</span></div>
-                        </div>
-                        <div style=" margin-right: 20px ; padding: 20px;">
-                            <div><span>125.00</span>TL</div>
-                            <div><span>45</span> Adet</div>
-                            <div><span>-67%</span></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row1-leftside-table"></div>
-                <div class="row1-leftside-select">
-                    <select name="Son 7 Gün" id=""></select>
-                    <select name="Adete Göre Kıyasla" id=""></select>
-                </div>
+      <div class="row1">
+        <div class="row1-leftside">
+          <div class="row1-leftside-header">
+            <div class="row1-leftside-header-leftside">
+              <h3>TOPLAM SİPARİŞ</h3>
+              <div><span>26.12.2022</span> - <span>01.01.2023</span></div>
             </div>
-
-            <div class="row1-rightside">
-                <div class="row1-rightside-header">
-                    <div>
-                        <h3>GÜNÜN SAATLERİNE GÖRE SİPARİŞLER</h3>
-                        <div><span>26.12.2022</span> - <span>01.01.2023</span></div>
-                    </div>
-                    <div><span>67</span> Adet</div>
-                </div>
-                <div class="row1-rightside-table"></div>
-                <div class="row1-rightside-select">
-                    <select name="Son 7 Gün" id=""></select>
-                </div>
+            <div class="row1-leftside-header-rightside">
+              <div
+                style="
+                  border-right: 1px solid #000;
+                  margin-right: 20px;
+                  padding: 20px;
+                "
+              >
+                <div><span>67</span> Sipariş</div>
+                <div><span>45</span> Adet</div>
+                <div><span>-67%</span></div>
+              </div>
+              <div
+                style="
+                  border-right: 1px solid #000;
+                  margin-right: 20px;
+                  padding: 20px;
+                "
+              >
+                <div><span>67</span> Ürün</div>
+                <div><span>45</span> Adet</div>
+                <div><span>-67%</span></div>
+              </div>
+              <div style="margin-right: 20px; padding: 20px">
+                <div><span>125.00</span>TL</div>
+                <div><span>45</span> Adet</div>
+                <div><span>-67%</span></div>
+              </div>
             </div>
+          </div>
+
+          <div class="row1-leftside-table">
+            <table class="letfside-table">
+              <tr>
+                <td>Platform</td>
+                <td>Sipariş Adedi</td>
+                <td>Ürün Sayısı</td>
+                <td>Toplam Tutar</td>
+                <td>% oran</td>
+                <td>Grafik</td>
+                <td>Önceki Gün</td>
+              </tr>
+              <tr>
+                <td><span>Hepsi Burada</span></td>
+                <td><span>32</span></td>
+                <td><span>32</span></td>
+                <td><span>500.00</span> TL</td>
+                <td><span>%13.79</span></td>
+                <td><span>Grafik</span></td>
+                <td><span>24</span> adet</td>
+
+              </tr>
+              <tr>
+                <td><span>Amazon</span></td>
+                <td><span>32</span></td>
+                <td><span>32</span></td>
+                <td><span>500.00</span> TL</td>
+                <td><span>%13.79</span></td>
+                <td><span>Grafik</span></td>
+                <td><span>24</span> adet</td>
+
+              </tr>
+              <tr>
+                <td><span>ÇiçekSepeti</span></td>
+                <td><span>32</span></td>
+                <td><span>32</span></td>
+                <td><span>500.00</span> TL</td>
+                <td><span>%13.79</span></td>
+                <td><span>Grafik</span></td>
+                <td><span>24</span> adet</td>
+
+              </tr>
+              <tr>
+                <td><span>n11</span></td>
+                <td><span>32</span></td>
+                <td><span>32</span></td>
+                <td><span>500.00</span> TL</td>
+                <td><span>%13.79</span></td>
+                <td><span>Grafik</span></td>
+                <td><span>24</span> adet</td>
+
+              </tr>
+            </table>
+          </div>
+          <div class="row1-leftside-select">
+            <select name="Son 7 Gün" id=""></select>
+            <select name="Adete Göre Kıyasla" id=""></select>
+          </div>
         </div>
+
+        <div class="row1-rightside">
+          <div class="row1-rightside-header">
+            <div>
+              <h3>GÜNÜN SAATLERİNE GÖRE SİPARİŞLER</h3>
+              <div><span>26.12.2022</span> - <span>01.01.2023</span></div>
+            </div>
+            <div><span>67</span> Adet</div>
+          </div>
+          <div class="row1-rightside-table"></div>
+          <div class="row1-rightside-select">
+            <select name="Son 7 Gün" id=""></select>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.3/chart.min.js"></script>
-</body>
-
+  </body>
 </html>
