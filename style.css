@@ -13,7 +13,7 @@
   top: 139px;
   left: 249px;
   width: 1000px;
-  height: 400px;
+  height: 450px;
   box-shadow: 0px 0px 8px #efeff4;
   border: 1px solid #f2f2f2;
   border-radius: 4px;
@@ -57,19 +57,26 @@
 }
 
 .row1-leftside-select {
-  padding: 5px;
+  padding: 15px 350px;
+  margin-top: 10px;
   display: flex;
 }
-.row1-leftside-select div {
-  padding: 5px;
+
+.row1-leftside-select > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row1-leftside-select select {
   border: none;
+  border-style: none;
+  outline: none;
+  background-color: transparent;
 }
 
 .row1-rightside-select {
-  padding: 5px;
+  padding: 15px;
   display: flex;
 }
 .row1-rightside-select div {
@@ -98,5 +105,35 @@ td {
 canvas {
   width: 100px;
   height: 17px;
-  margin-right: 40px;
+  margin-right: 50px;
+  margin-left: -30px;
+}
+
+.row1-leftside-table span {
+  font-weight: bold;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: #5a5e9a;
+}
+
+.date {
+  color: #5a5e9a;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: #5a5e9a;
+}
+
+.siparis-info {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: #5a5e9a;
 }
