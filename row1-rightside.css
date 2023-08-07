@@ -30,3 +30,7 @@
 .row1-rightside-select select {
   border: 0;
 }
+
+#row1-rightside {
+  margin: 20px auto;
+}
