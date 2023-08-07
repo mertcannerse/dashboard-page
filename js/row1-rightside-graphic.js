@@ -1,5 +1,5 @@
-let ctx = document.getElementById("row1-rightside").getContext("2d");
-let chart = new Chart(ctx, {
+let ctx1 = document.getElementById("row1-rightside").getContext("2d");
+let chart = new Chart(ctx1, {
   type: "bar",
   data: {
     labels: [

@@ -1,6 +1,6 @@
-const ctx = document.getElementById("row2-graphic");
+const ctx2 = document.getElementById("row2-graphic");
 
-new Chart(ctx, {
+new Chart(ctx2, {
   type: "bar",
   data: {
     labels: ["Red", "Blue", "Yellow"],
