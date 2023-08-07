@@ -1,5 +1,5 @@
 
-const data = {
+const row3data = {
     labels: labels,
     datasets: [
         {
@@ -12,9 +12,9 @@ const data = {
         },
     ],
 };
-const config = {
+const row3config = {
     type: "line",
-    data: data,
+    data: row3data,
     options: {
         scales: {
             x: {
@@ -31,4 +31,4 @@ const config = {
         },
     },
 };
-let totalOrder = new Chart(document.getElementById("totalOrder"), config);
+let totalOrder = new Chart(document.getElementById("totalOrder"), row3config);

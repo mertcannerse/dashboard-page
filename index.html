@@ -42,7 +42,7 @@
                     </div>
                     <div class="row1-leftside-header-rightside">
                         <div style="border-right:1px solid #000; 
-                         margin-right: 20px ; padding: 20px;">
+                         margin-right: 20px ; padding: 20px; height: 110px;">
                             <div class="siparis-info"><span>67</span> Sipariş</div>
                             <div style="margin-left: 36px; font-family: 'Plus Jakarta Sans', sans-serif;">
                                 <span>45</span> Adet
@@ -53,7 +53,7 @@
                             </div>
                         </div>
                         <div style="border-right:1px solid #000 ;
-                        margin-right: 20px ; padding: 20px;">
+                        margin-right: 20px ; padding: 20px; height: 110px;">
                             <div class="siparis-info"><span>67</span> Ürün</div>
                             <div style="margin-left: 18px;font-family: 'Plus Jakarta Sans', sans-serif;"><span>45</span>
                                 Adet</div>
@@ -174,16 +174,18 @@
             <div class="row1-rightside">
                 <div class="row1-rightside-header">
                     <div>
-                        <h3>GÜNÜN SAATLERİNE GÖRE SİPARİŞLER</h3>
+                        <h3 style="margin-bottom: 30px;">GÜNÜN SAATLERİNE GÖRE SİPARİŞLER</h3>
                         <div><span>26.12.2022</span> - <span>01.01.2023</span></div>
                     </div>
-                    <div><span>67</span> Adet</div>
-                </div>
-                <div class="row1-rightside-table">
-                    <div><canvas style="height: 480px; width:550px" id="row1-rightside"></canvasid>
+                    <div style="margin-bottom: 50px;">
+                        <h3>67 Adet</h3>
                     </div>
                 </div>
-                <div class="row1-rightside-select">
+                <div class="row1-rightside-table">
+                    <div><canvas style="height: 410px; width:550px" id="row1-rightside"></canvasid>
+                    </div>
+                </div>
+                <div class="row1-rightside-select" style="font-size: 12px;">
                     <div><i class="fa-regular fa-calendar-days"></i></div>
                     <div style="border-left: 1px solid #000;padding-left: 5px;">
                         <span>Son 7 Gün</span>
@@ -248,65 +250,66 @@
                 </div>
             </div>
             <div class="general-istatic-wrapper">
-                <div class="general-istatic general-istatic-right">
-                    <div class="general-istatic-header">
-                        <h3>Genel İstatistik</h3>
-                        <div style="color:#5A5E9A"><span>27.12.22</span> (Bugün Tarihli)</div>
-                    </div>
-                    <div>
-                        <table class="general-istatic-table" style="border-top: 1px dotted #000;">
-                            <tr>
-                                <th style="text-align: start;color: #989ABC;">Konu </th>
-                                <th style="text-align: center; color: #989ABC;">Adet</th>
-                                <th style="text-align: end; color: #989ABC;">Açıklama</th>
-                            </tr>
-                            <tr>
-                                <td style="color: #5A5E9A;"><span>Ürün</span></td>
-                                <td style="color: #5A5E9A;"><span>32</span></td>
-                                <td><span style="text-align: end; color: #5A5E9A8E;">Satıştaki barkod bazlı ürün
-                                        adedi</span></td>
-                            </tr>
-                            <tr>
-                                <td style="color: #5A5E9A;"><span>Stod Adedi</span></td>
-                                <td style="color: #5A5E9A;"><span>12</span></td>
-                                <td><span style="text-align: end; color: #5A5E9A8E;">Satıştaki adet bazlı ürün
-                                        toplamı</span></td>
-                            </tr>
-                            <tr>
-                                <td style="color: #5A5E9A;"><span>Kategori</span></td>
-                                <td style="color: #5A5E9A;"><span>18</span></td>
-                                <td><span style="text-align: end; color: #5A5E9A8E;">Satışta gözüken toplam kategori
-                                        sayısı</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="color: #5A5E9A;"><span>Stok Tutarı</span></td>
-                                <td style="color: #5A5E9A;"><span>3</span></td>
-                                <td><span style="text-align: end; color: #5A5E9A8E;">Tüm ürünlerin satış fiyatı
-                                        toplamı</span></td>
-                            </tr>
-                            <tr>
-                                <td style="color: #5A5E9A;"><span>Üye</span></td>
-                                <td style="color: #5A5E9A;"><span>17</span></td>
-                                <td><span style="text-align: end; color: #5A5E9A8E;">Toplam web sitesine kayıtlı üye
-                                        sayısı</span>
-                                </td>
-                            </tr>
-                        </table>
+                <div class="general-istatic">
+                    <div class="general-istatic general-istatic-right">
+                        <div class="general-istatic-header">
+                            <h3>Genel İstatistik</h3>
+                            <div style="color:#5A5E9A"><span>27.12.22</span> (Bugün Tarihli)</div>
+                        </div>
+                        <div>
+                            <table class="general-istatic-table" style="border-top: 1px dotted #000;">
+                                <tr>
+                                    <th style="text-align: start;color: #989ABC;">Konu </th>
+                                    <th style="text-align: center; color: #989ABC;">Adet</th>
+                                    <th style="text-align: end; color: #989ABC;">Açıklama</th>
+                                </tr>
+                                <tr>
+                                    <td style="color: #5A5E9A;"><span>Ürün</span></td>
+                                    <td style="color: #5A5E9A;"><span>32</span></td>
+                                    <td><span style="text-align: end; color: #5A5E9A8E;">Satıştaki barkod bazlı ürün
+                                            adedi</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #5A5E9A;"><span>Stod Adedi</span></td>
+                                    <td style="color: #5A5E9A;"><span>12</span></td>
+                                    <td><span style="text-align: end; color: #5A5E9A8E;">Satıştaki adet bazlı ürün
+                                            toplamı</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #5A5E9A;"><span>Kategori</span></td>
+                                    <td style="color: #5A5E9A;"><span>18</span></td>
+                                    <td><span style="text-align: end; color: #5A5E9A8E;">Satışta gözüken toplam kategori
+                                            sayısı</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #5A5E9A;"><span>Stok Tutarı</span></td>
+                                    <td style="color: #5A5E9A;"><span>3</span></td>
+                                    <td><span style="text-align: end; color: #5A5E9A8E;">Tüm ürünlerin satış fiyatı
+                                            toplamı</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #5A5E9A;"><span>Üye</span></td>
+                                    <td style="color: #5A5E9A;"><span>17</span></td>
+                                    <td><span style="text-align: end; color: #5A5E9A8E;">Toplam web sitesine kayıtlı üye
+                                            sayısı</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
-
             </div>
 
             <div class="graphic-wrapper">
-                <div class="row-graphic">
-                    <div>
+                <div class="row-graphic" style="height: 555px;">
+                    <div style="height: 105px;">
                         <H3>Ödeme Tipine Göre Siparişler</H3>
                         <div><span>26.12.2022-01.01.2023</span></div>
                     </div>
                     <div>
                         <canvas id="row2-graphic"
-                            style="border-top: 1px dotted #000; margin-top: 25px; padding-top:20px"></canvas>
+                            style="border-top: 1px dotted #000; margin-top: 25px; padding-top:20px "></canvas>
                     </div>
                     <div class="row2-rightside-select">
                         <div><i class="fa-regular fa-calendar-days"></i></div>
@@ -317,7 +320,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
         <div>
             <div class="row3-leftside">
@@ -338,7 +341,7 @@
                                 <span>-%67</span>
                             </div>
                         </div>
-                       
+
                         <div style=" margin-right: 20px ; padding: 20px;">
                             <div class="siparis-info"><span>125.00</span>TL</div>
                             <div style="margin-left:20px;font-family: 'Plus Jakarta Sans', sans-serif;"><span>45</span>
@@ -354,64 +357,21 @@
                     <div>
                         <table>
                             <tbody>
-                            <tr style="font-size: 14px; opacity: 0.4;">
-                                <td>Görsel</td>
-                                <td>Ürün Adı</td>
-                                <td>Sipariş Adedi</td>
-                                <td>Sipariş Tutarı</td>
-                                <td>Grafik</td>
-                                <td>Önceki Gün</td>
-                            </tr>
+                                <tr style="font-size: 14px; opacity: 0.4;">
+                                    <td>Görsel</td>
+                                    <td>Ürün Adı</td>
+                                    <td>Sipariş Adedi</td>
+                                    <td>Sipariş Tutarı</td>
+                                    <td>Grafik</td>
+                                    <td>Önceki Gün</td>
+                                </tr>
                         </table>
                     </div>
                     <div class="row1-leftside-tablerow">
                         <table style="font-size: 13px;" class="letfside-tablerow">
                             <tr>
-                                <td><img src="dashboard.jpg" style="border-radius: 80%; height: 50px; width: 50px;" ></td>                                <td><span>Oversize Geniş Kesim Kruvaze Premium Çizgili Yün Kaban</span></td>
-                                <td><span>32</span></td>
-                                <td><span>500.00 TL</span> </td>
-                                <td><canvas id="totalOrder"></canvas></td>
-                                <td>
-                                    <div><span>24 Adet</span></div>
-                                    <div style="margin-left: 26px;color: #F83000; font-size: 14px; font-weight: 600;">
-                                        -%20</div>
+                                <td><img src="dashboard.jpg" style="border-radius: 80%; height: 50px; width: 50px;">
                                 </td>
-                            </tr>
-                            <tr>
-                                <td><img src="dashboard.jpg" style="border-radius: 80%; height: 50px; width: 50px;" ></td>                                <td><span>Oversize Geniş Kesim Kruvaze Premium Çizgili Yün Kaban</span></td>
-                                <td><span>32</span></td>
-                                <td><span>500.00 TL</span> </td>
-                                <td><canvas id="totalOrder"></canvas></td>
-                                <td>
-                                    <div><span>24 Adet</span></div>
-                                    <div style="margin-left: 26px;color: #F83000; font-size: 14px; font-weight: 600;">
-                                        -%20</div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><img src="dashboard.jpg" style="border-radius: 80%; height: 50px; width: 50px;" ></td>                                <td><span>Oversize Geniş Kesim Kruvaze Premium Çizgili Yün Kaban</span></td>
-                                <td><span>32</span></td>
-                                <td><span>500.00 TL</span> </td>
-                                <td><canvas id="totalOrder"></canvas></td>
-                                <td>
-                                    <div><span>24 Adet</span></div>
-                                    <div style="margin-left: 26px;color: #F83000; font-size: 14px; font-weight: 600;">
-                                        -%20</div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><img src="dashboard.jpg" style="border-radius: 80%; height: 50px; width: 50px;" ></td>                                <td><span>Oversize Geniş Kesim Kruvaze Premium Çizgili Yün Kaban</span></td>
-                                <td><span>32</span></td>
-                                <td><span>500.00 TL</span> </td>
-                                <td><canvas id="totalOrder"></canvas></td>
-                                <td>
-                                    <div><span>24 Adet</span></div>
-                                    <div style="margin-left: 26px;color: #F83000; font-size: 14px; font-weight: 600;">
-                                        -%20</div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><img src="dashboard.jpg" style="border-radius: 80%; height: 50px; width: 50px;" ></td>
                                 <td><span>Oversize Geniş Kesim Kruvaze Premium Çizgili Yün Kaban</span></td>
                                 <td><span>32</span></td>
                                 <td><span>500.00 TL</span> </td>
@@ -423,7 +383,9 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><img src="dashboard.jpg" style="border-radius: 80%; height: 50px; width: 50px;" ></td>                                <td><span>Oversize Geniş Kesim Kruvaze Premium Çizgili Yün Kaban</span></td>
+                                <td><img src="dashboard.jpg" style="border-radius: 80%; height: 50px; width: 50px;">
+                                </td>
+                                <td><span>Oversize Geniş Kesim Kruvaze Premium Çizgili Yün Kaban</span></td>
                                 <td><span>32</span></td>
                                 <td><span>500.00 TL</span> </td>
                                 <td><canvas id="totalOrder"></canvas></td>
@@ -433,8 +395,60 @@
                                         -%20</div>
                                 </td>
                             </tr>
-                        </tbody>
-                            
+                            <tr>
+                                <td><img src="dashboard.jpg" style="border-radius: 80%; height: 50px; width: 50px;">
+                                </td>
+                                <td><span>Oversize Geniş Kesim Kruvaze Premium Çizgili Yün Kaban</span></td>
+                                <td><span>32</span></td>
+                                <td><span>500.00 TL</span> </td>
+                                <td><canvas id="totalOrder"></canvas></td>
+                                <td>
+                                    <div><span>24 Adet</span></div>
+                                    <div style="margin-left: 26px;color: #F83000; font-size: 14px; font-weight: 600;">
+                                        -%20</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="dashboard.jpg" style="border-radius: 80%; height: 50px; width: 50px;">
+                                </td>
+                                <td><span>Oversize Geniş Kesim Kruvaze Premium Çizgili Yün Kaban</span></td>
+                                <td><span>32</span></td>
+                                <td><span>500.00 TL</span> </td>
+                                <td><canvas id="totalOrder"></canvas></td>
+                                <td>
+                                    <div><span>24 Adet</span></div>
+                                    <div style="margin-left: 26px;color: #F83000; font-size: 14px; font-weight: 600;">
+                                        -%20</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="dashboard.jpg" style="border-radius: 80%; height: 50px; width: 50px;">
+                                </td>
+                                <td><span>Oversize Geniş Kesim Kruvaze Premium Çizgili Yün Kaban</span></td>
+                                <td><span>32</span></td>
+                                <td><span>500.00 TL</span> </td>
+                                <td><canvas id="totalOrder"></canvas></td>
+                                <td>
+                                    <div><span>24 Adet</span></div>
+                                    <div style="margin-left: 26px;color: #F83000; font-size: 14px; font-weight: 600;">
+                                        -%20</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="dashboard.jpg" style="border-radius: 80%; height: 50px; width: 50px;">
+                                </td>
+                                <td><span>Oversize Geniş Kesim Kruvaze Premium Çizgili Yün Kaban</span></td>
+                                <td><span>32</span></td>
+                                <td><span>500.00 TL</span> </td>
+                                <td><canvas id="totalOrder"></canvas></td>
+                                <td>
+                                    <div><span>24 Adet</span></div>
+                                    <div style="margin-left: 26px;color: #F83000; font-size: 14px; font-weight: 600;">
+                                        -%20</div>
+                                </td>
+                            </tr>
+                            </tbody>
+
                         </table>
                     </div>
                 </div>
@@ -449,12 +463,10 @@
                 </div>
             </div>
         </div>
-       
-        
-       
-        
+
+
     </div>
-  
+
     <script src="js/row1-rightside-graphic.js"></script>
     <script src="js/row1-leftside-graphics.js"></script>
     <script src="js/row2-graphic.js"></script>
