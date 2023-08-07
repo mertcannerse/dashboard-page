@@ -96,3 +96,11 @@ td {
   height: 40px;
   align-items: center;
 }
+
+.letfside-tablerow canvas {
+  width: 100px;
+  height: 17px;
+  margin-right: 50px;
+  margin-left: -30px;
+  margin-bottom: 50px;
+}

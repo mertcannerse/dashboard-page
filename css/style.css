@@ -9,13 +9,7 @@
   grid-template-columns: 3fr 1fr;
 }
 
-canvas {
-  width: 100px;
-  height: 17px;
-  margin-right: 50px;
-  margin-left: -30px;
-  margin-bottom: 50px;
-}
+
 
 .date {
   color: #5a5e9a;
