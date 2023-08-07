@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/row1-leftside.css">
     <link rel="stylesheet" href="css/row1-rightside.css">
-    <link rel="stylesheet" href="css/basket-istatic.css">
+    <link rel="stylesheet" href="css/row2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -179,7 +179,7 @@
                     <div><span>67</span> Adet</div>
                 </div>
                 <div class="row1-rightside-table">
-                    <div><canvas id="row1-rightside"></canvasid>
+                    <div><canvas style="height: 480px; width:550px" id="row1-rightside"></canvasid>
                     </div>
                 </div>
                 <div class="row1-rightside-select">
@@ -237,7 +237,7 @@
                 </div>
             </div>
             <div class="general-istatic-wrapper">
-                <div class="general-istatic">
+                <div class="general-istatic general-istatic-right">
                     <div class="geneleral-istatic-header">
                         <h3>Genel İstatistik</h3>
                         <div><span>27.12.22</span>(bugünün tarihi)</div>
@@ -287,7 +287,15 @@
                         <div><span>26.12.2022-01.01.2023</span></div>
                     </div>
                     <div>
-                        <canvas id="row2-graphic" style="border-top: 1px dotted #000;"></canvas>
+                        <canvas id="row2-graphic"
+                            style="border-top: 1px dotted #000; margin-top: 25px; padding-top:20px"></canvas>
+                    </div>
+                    <div class="row2-rightside-select">
+                        <div><i class="fa-regular fa-calendar-days"></i></div>
+                        <div style="border-left: 1px solid #000;padding-left: 5px;">
+                            <span>Son 7 Gün</span>
+                            <select name="Son 7 Gün" id=""></select>
+                        </div>
                     </div>
                 </div>
             </div>

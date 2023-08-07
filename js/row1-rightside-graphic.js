@@ -36,10 +36,6 @@ let chart = new Chart(ctx1, {
           "#8FB4EF",
           "#0F6CFF",
         ],
-
-        data: [[2, 4]],
-        label: ["21.45"],
-        backgroundColor: ["#8FB4EF"],
       },
     ],
   },
@@ -76,5 +72,10 @@ let chart = new Chart(ctx1, {
         },
       },
     },
+    plugins: {
+      legend: {
+        display: false
+      }
+    }
   },
 });
