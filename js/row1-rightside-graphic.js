@@ -36,6 +36,10 @@ let chart = new Chart(ctx, {
           "#8FB4EF",
           "#0F6CFF",
         ],
+
+        data: [[2, 4]],
+        label: ["21.45"],
+        backgroundColor: ["#8FB4EF"],
       },
     ],
   },

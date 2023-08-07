@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/row1-leftside.css">
     <link rel="stylesheet" href="css/row1-rightside.css">
+    <link rel="stylesheet" href="css/basket-istatic.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,8 +27,6 @@
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
     </style>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-
     <title>Dashboard Page</title>
 </head>
 
@@ -193,8 +192,111 @@
 
             </div>
         </div>
-        <script src="js/row1-rightside-graphic.js"></script>
-        <script src="js/row1-leftside-graphics.js"></script>
+
+        <div class="row2">
+            <div class="basket-wrapper">
+                <div class="basket-istatic">
+                    <div class="basket-istatic-header">
+                        <h3>sepet ve üye istatistikleri</h3>
+                        <div><span>27.12.2022</span>(bugünün tarihi)</div>
+                    </div>
+
+                    <table style="border-top: 1px dotted #000;">
+                        <tr>
+                            <th>Konu</th>
+                            <th>Adet</th>
+                            <th>Açıklama</th>
+                        </tr>
+                        <tr>
+                            <th><span>adet</span></th>
+                            <th><span>32</span></th>
+                            <th><span>müsteri bazlı oluşan sepet sayısı</span></th>
+                        </tr>
+                        <tr>
+                            <th><span>ürün adet </span></th>
+                            <th><span>12</span></th>
+                            <th><span>sepetlerde oluşan ürün adedi</span></th>
+                        </tr>
+                        <tr>
+                            <th><span>sepet Tutarı</span></th>
+                            <th><span>18</span></th>
+                            <th><span>sepetlerde oluşan ürünlerin toplam tutarı</span></th>
+                        </tr>
+                        <tr>
+                            <th><span>sepet Ortalaması</span></th>
+                            <th><span>3</span></th>
+                            <th><span>Oluşturulan sepetlerin ortalama tutarı</span></th>
+                        </tr>
+                        <tr>
+                            <th><span>Üye Sayısı</span></th>
+                            <th><span>3</span></th>
+                            <th><span>Gün içi web sitesine üye olan kullanıcı sayısı</span></th>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+            <div class="general-istatic-wrapper">
+                <div class="general-istatic">
+                    <div class="geneleral-istatic-header">
+                        <h3>Genel İstatistik</h3>
+                        <div><span>27.12.22</span>(bugünün tarihi)</div>
+                    </div>
+                    <div>
+                        <table style="border-top: 1px dotted #000;">
+                            <tr>
+                                <th>Konu </th>
+                                <th>Adet</th>
+                                <th>Açıklama</th>
+                            </tr>
+                            <tr>
+                                <th>Ürün</th>
+                                <th>32</th>
+                                <th>SAtıştaki barkod bazlı ürün adedi</th>
+                            </tr>
+                            <tr>
+                                <th>Stod Adedi </th>
+                                <th>12</th>
+                                <th>SAtıştaki adet bazlı ürün toplamı</th>
+                            </tr>
+                            <tr>
+                                <th>Kategori </th>
+                                <th>18</th>
+                                <th>SAtışta gözüken toplam kategori sayısı</th>
+                            </tr>
+                            <tr>
+                                <th>Stok Tutarı </th>
+                                <th>3</th>
+                                <th>Tüm ürünlerin satış fiyatı toplamı</th>
+                            </tr>
+                            <tr>
+                                <th>Üye </th>
+                                <th>17</th>
+                                <th>Toplam web sitesine kayıtlı üye sayısı</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="graphic-wrapper">
+                <div class="row-graphic">
+                    <div>
+                        <H3>Ödeme Tipine Göre Siparişler</H3>
+                        <div><span>26.12.2022-01.01.2023</span></div>
+                    </div>
+                    <div>
+                        <canvas id="row2-graphic" style="border-top: 1px dotted #000;"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/row1-rightside-graphic.js"></script>
+    <script src="js/row1-leftside-graphics.js"></script>
+    <script src="js/row2-graphic.js"></script>
+
 
 </body>
 
