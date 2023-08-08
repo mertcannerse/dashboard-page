@@ -117,13 +117,11 @@ td {
   padding: 10px;
 }
 .row3-rightside-header {
-  align-items: center;
   padding: 10px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   border-bottom: 1px dashed #5a5e9a;
-  height: 160px;
+  height: 150px;
 }
 
 .row3-rightside {
