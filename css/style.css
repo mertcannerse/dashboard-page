@@ -26,3 +26,7 @@ h3 {
   font-family: "Poppins", sans-serif;
   color: #5a5e9a;
 }
+
+td {
+  height: 100px;
+}

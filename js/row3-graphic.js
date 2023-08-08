@@ -6,7 +6,7 @@ const row3data = {
             label: "",
             data: [60, 40, 50, 80, 90, 70, 60, 40, 50, 70, 60, 80, 400],
             fill: false,
-            borderColor: "#F87600",
+            borderColor: "#F83000",
             tension: 0.1,
             pointRadius: 0,
         },
@@ -50,7 +50,7 @@ const row3data1 = {
 };
 const row3config1 = {
     type: "line",
-    data: row3data,
+    data: row3data1,
     options: {
         scales: {
             x: {
@@ -81,7 +81,7 @@ const row3data2 = {
             label: "",
             data: [60, 40, 50, 80, 90, 70, 60, 40, 50, 70, 60, 80, 400],
             fill: false,
-            borderColor: "#F87600",
+            borderColor: "#4BBBCE",
             tension: 0.1,
             pointRadius: 0,
         },
@@ -89,7 +89,7 @@ const row3data2 = {
 };
 const row3config2 = {
     type: "line",
-    data: row3data,
+    data: row3data2,
     options: {
         scales: {
             x: {
@@ -117,7 +117,7 @@ const row3data3 = {
             label: "",
             data: [60, 40, 50, 80, 90, 70, 60, 40, 50, 70, 60, 80, 400],
             fill: false,
-            borderColor: "#F87600",
+            borderColor: "purple",
             tension: 0.1,
             pointRadius: 0,
         },
@@ -125,7 +125,7 @@ const row3data3 = {
 };
 const row3config3 = {
     type: "line",
-    data: row3data,
+    data: row3data3,
     options: {
         scales: {
             x: {
@@ -152,7 +152,7 @@ const row3data4 = {
             label: "",
             data: [60, 40, 50, 80, 90, 70, 60, 40, 50, 70, 60, 80, 400],
             fill: false,
-            borderColor: "#F87600",
+            borderColor: "#00BE83",
             tension: 0.1,
             pointRadius: 0,
         },
@@ -160,7 +160,7 @@ const row3data4 = {
 };
 const row3config4 = {
     type: "line",
-    data: row3data,
+    data: row3data4,
     options: {
         scales: {
             x: {
@@ -196,7 +196,7 @@ const row3data5 = {
 };
 const row3config5 = {
     type: "line",
-    data: row3data,
+    data: row3data5,
     options: {
         scales: {
             x: {
