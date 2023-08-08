@@ -126,28 +126,8 @@ td {
   height: 160px;
 }
 
-.row3-rightside-select {
-  padding: 0px 230px;
-  display: flex;
-}
-.row3-rightside-select div {
-  padding: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #595d9a;
-}
-
-.row3-rightside-select select {
-  border: none;
-  border-style: none;
-  outline: none;
-  background-color: transparent;
-}
-
 .row3-rightside {
-  margin: 20px auto;
-  height: 600px;
+  height: 670px;
 }
 
 .row3-rightside-select span,
@@ -157,14 +137,12 @@ td {
   color: #5a5e9a;
 }
 
-.row3{
-display: grid;
-grid-template-columns: 2fr 1fr;
-
+.row3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
-.row3-rightside-table{
-overflow-y: auto;
-height: 470px;
+.row3-rightside-table {
+  overflow-y: auto;
+  height: 470px;
 }
-
