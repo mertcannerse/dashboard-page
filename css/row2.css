@@ -89,11 +89,25 @@ th {
 
 .row2-rightside-select div {
   padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #595d9a;
 }
 
 .row2-rightside-select select {
-  border: 0;
+  border: none;
+  border-style: none;
+  outline: none;
+  background-color: transparent;
 }
+
+.row2-rightside-select span {
+  font-weight: bold;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #5a5e9a;
+}
+
 .general-istatic-right {
   margin-left: -15px;
   height: 470px;

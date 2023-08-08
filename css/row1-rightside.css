@@ -21,24 +21,32 @@
 }
 
 .row1-rightside-select {
-  padding: 0px 200px;
+  padding: 0px 230px;
   display: flex;
 }
 .row1-rightside-select div {
   padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #595d9a;
 }
 
 .row1-rightside-select select {
-  border: 0;
+  border: none;
+  border-style: none;
+  outline: none;
+  background-color: transparent;
 }
 
 #row1-rightside {
   margin: 20px auto;
   height: 280px;
 }
+
+.row1-rightside-select span,
 .row1-rightside span {
   font-weight: bold;
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-family: "Poppins", sans-serif;
   color: #5a5e9a;
 }
