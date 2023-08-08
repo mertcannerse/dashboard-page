@@ -104,3 +104,67 @@ td {
   margin-left: -30px;
   margin-bottom: 50px;
 }
+
+.row3-rightside {
+  top: 139px;
+  left: 1377px;
+  width: 600px;
+  height: 610px;
+  box-shadow: 0px 0px 8px #efeff4;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  margin: 10px 20px;
+  padding: 10px;
+}
+.row3-rightside-header {
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px dashed #5a5e9a;
+  height: 160px;
+}
+
+.row3-rightside-select {
+  padding: 0px 230px;
+  display: flex;
+}
+.row3-rightside-select div {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #595d9a;
+}
+
+.row3-rightside-select select {
+  border: none;
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.row3-rightside {
+  margin: 20px auto;
+  height: 600px;
+}
+
+.row3-rightside-select span,
+.row3-rightside span {
+  font-weight: bold;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #5a5e9a;
+}
+
+.row3{
+display: grid;
+grid-template-columns: 2fr 1fr;
+
+}
+
+.row3-rightside-table{
+overflow-y: auto;
+height: 470px;
+}
+
