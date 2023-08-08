@@ -144,3 +144,7 @@ td {
   overflow-y: auto;
   height: 445px;
 }
+
+th {
+  color: #989abc;
+}
