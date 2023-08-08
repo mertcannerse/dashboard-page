@@ -13,6 +13,7 @@ const labels = [
     "Nov",
     "Dec",
 ];
+
 const data = {
     labels: labels,
     datasets: [
@@ -26,6 +27,7 @@ const data = {
         },
     ],
 };
+
 const config = {
     type: "line",
     data: data,

@@ -164,8 +164,10 @@
                 <div style=" font-size: 12px; font-family: 'Plus Jakarta Sans', sans-serif; color: #595D9A;"
                     class="row1-leftside-select">
                     <div><i class="fa-regular fa-calendar-days"></i></div>
-                    <div style="border-left: 1.5px solid #C6C6C6;padding-left: 5px;"><span>Son 7 Gün</span><select
-                            name="Son 7 Gün" id=""></select></div>
+                    <div style="border-left: 1.5px solid #C6C6C6;padding-left: 5px;"><select name="Son 7 Gün" id="">
+                            <option value="last7Days">Son 7 Gün</option>
+                            <option value="last30Days">Son 30 Gün</option>
+                        </select></div>
                     <div style="border-left: 1.5px solid #C6C6C6;padding-left: 5px;"><span>Adete Göre
                             Kıyasla</span><select name="Adete Göre Kıyasla" id=""></select></div>
 
@@ -588,100 +590,118 @@
                     <div class="row4-leftside-header" style="border-bottom: 1px dashed #5a5e9a; padding: 30px;">
                         <h3>Genel Bilgilendirme</h3>
                     </div>
-                    <div class="row4-leftside-container" >
+                    <div class="row4-leftside-container">
                         <div style="border-right: 1px dashed #5a5e9a; ;
-                         height: 300px;" >
-                            <div class="table-wrapper" >
+                         height: 300px;">
+                            <div class="table-wrapper">
                                 <div style="display: grid; grid-template-columns: 1fr 1fr; padding-right: 10px ;">
 
                                     <img style="width: 10px;" src="img/icon1.png">
-                                    <img src="img/icon1.1.png" >
+                                    <img src="img/icon1.1.png">
                                 </div>
-                           <div>
-                            <h4>Tamamlanmayan sipariş</h4>
-                            <p>Müşterilerinizin sepetlerinde unuttukları ürünleri yönetin, hızlı bildirim ve müşteriye özel kampanyalar oluşturun.</p>
-                            </div>
-                            <div><button><img  src="img/buton1.png" > <img style="margin-right: 6px; margin-left: -6px;" src="img/buton2.png" >Güncelle</button></div>
-                               
+                                <div>
+                                    <h4>Tamamlanmayan sipariş</h4>
+                                    <p>Müşterilerinizin sepetlerinde unuttukları ürünleri yönetin, hızlı bildirim ve
+                                        müşteriye özel kampanyalar oluşturun.</p>
+                                </div>
+                                <div><button><img src="img/buton1.png"> <img
+                                            style="margin-right: 6px; margin-left: -6px;"
+                                            src="img/buton2.png">Güncelle</button></div>
+
 
                             </div>
 
                             <div class="table-wrapper">
                                 <div>
-                                    <img src="img/icon2 (2).png" >
+                                    <img src="img/icon2 (2).png">
                                 </div>
-                               <div>
-                                <h4>Müşteri İptal Talepleri</h4>
-                                <p>Müşterileriniz tarafından oluşturulan sipariş iptal taleblerini yönetin.</p>
-                               </div>
-                               <div><button><img  src="img/buton1.png" > <img style="margin-right: 6px; margin-left: -6px;" src="img/buton2.png" >Güncelle</button></div>
-                               
+                                <div>
+                                    <h4>Müşteri İptal Talepleri</h4>
+                                    <p>Müşterileriniz tarafından oluşturulan sipariş iptal taleblerini yönetin.</p>
+                                </div>
+                                <div><button><img src="img/buton1.png"> <img
+                                            style="margin-right: 6px; margin-left: -6px;"
+                                            src="img/buton2.png">Güncelle</button></div>
+
 
                             </div>
                             <div class="table-wrapper">
                                 <div>
                                     <img src="img/icon3.png">
                                 </div>
-                               <div>
-                                <h4>Ödeme Kontrol Talepleri</h4>
-                                <p>Havale ödeme bildirimler ve şüpheli ödemelerin kontrol taleplerini listeleyin, taleplere müdahalede bulunun.</p>
-                               </div>
-                               <div><button><img  src="img/buton1.png" > <img style="margin-right: 6px; margin-left: -6px;" src="img/buton2.png" >Güncelle</button></div>
-                               
+                                <div>
+                                    <h4>Ödeme Kontrol Talepleri</h4>
+                                    <p>Havale ödeme bildirimler ve şüpheli ödemelerin kontrol taleplerini listeleyin,
+                                        taleplere müdahalede bulunun.</p>
+                                </div>
+                                <div><button><img src="img/buton1.png"> <img
+                                            style="margin-right: 6px; margin-left: -6px;"
+                                            src="img/buton2.png">Güncelle</button></div>
+
 
                             </div>
                             <div class="table-wrapper">
                                 <div>
                                     <img src="img/icon4.png">
                                 </div>
-                              <div>
-                                <h4>Ödemesi Yapılmamış Siparişler</h4>
-                                <p>Kredi kartlı başarısız denemelerin listesi.</p>
+                                <div>
+                                    <h4>Ödemesi Yapılmamış Siparişler</h4>
+                                    <p>Kredi kartlı başarısız denemelerin listesi.</p>
 
-                              </div>
-                              <div><button><img  src="img/buton1.png" > <img style="margin-right: 6px; margin-left: -6px;" src="img/buton2.png" >Güncelle</button></div>
-                               
+                                </div>
+                                <div><button><img src="img/buton1.png"> <img
+                                            style="margin-right: 6px; margin-left: -6px;"
+                                            src="img/buton2.png">Güncelle</button></div>
 
-                            </div >
+
+                            </div>
                             <div class="table-wrapper">
                                 <div style="display: grid; grid-template-columns: 1fr 1fr; padding-right: 10px ;">
-                                  <img style="width: 10px;" src="img/icon5.1.png">
-                                  <img src="img/icon5.2.png">
-                                   
+                                    <img style="width: 10px;" src="img/icon5.1.png">
+                                    <img src="img/icon5.2.png">
+
                                 </div>
                                 <div>
                                     <h4>Onay Bekleyen Siparişler</h4>
-                                <p>Onay bekleyen siparişlerinizi yönetin.</p>
+                                    <p>Onay bekleyen siparişlerinizi yönetin.</p>
                                 </div>
-                                <div><button><img  src="img/buton1.png" > <img style="margin-right: 6px; margin-left: -6px;" src="img/buton2.png" >Güncelle</button></div>
-                               
+                                <div><button><img src="img/buton1.png"> <img
+                                            style="margin-right: 6px; margin-left: -6px;"
+                                            src="img/buton2.png">Güncelle</button></div>
+
 
                             </div>
 
                         </div>
-                        <div >
+                        <div>
                             <div class="table-wrapper">
                                 <div>
                                     <img src="img/icon6.png">
                                 </div>
                                 <div>
                                     <h4>Telefonla Sipariş</h4>
-                                <p> WhatsApp benzeri ve diğer platformlar aracılığı ile sipariş oluşturmak isteyen ve bekleme olan müşterileriniz.</p>
+                                    <p> WhatsApp benzeri ve diğer platformlar aracılığı ile sipariş oluşturmak isteyen
+                                        ve bekleme olan müşterileriniz.</p>
                                 </div>
-                                <div><button><img  src="img/buton1.png" > <img style="margin-right: 6px; margin-left: -6px;" src="img/buton2.png" >Güncelle</button></div>
-                               
+                                <div><button><img src="img/buton1.png"> <img
+                                            style="margin-right: 6px; margin-left: -6px;"
+                                            src="img/buton2.png">Güncelle</button></div>
+
 
                             </div>
                             <div class="table-wrapper">
                                 <div>
                                     <img src="img/icon7.png">
                                 </div>
-                             <div>
-                                <h4>Destek Mesajları</h4>
-                                <p>Web mağaza aracılığı ile müşterilerinizin tarafından oluşturulan destek talepleri</p>
-                             </div>
-                             <div><button><img  src="img/buton1.png" > <img style="margin-right: 6px; margin-left: -6px;" src="img/buton2.png" >Güncelle</button></div>
-                               
+                                <div>
+                                    <h4>Destek Mesajları</h4>
+                                    <p>Web mağaza aracılığı ile müşterilerinizin tarafından oluşturulan destek talepleri
+                                    </p>
+                                </div>
+                                <div><button><img src="img/buton1.png"> <img
+                                            style="margin-right: 6px; margin-left: -6px;"
+                                            src="img/buton2.png">Güncelle</button></div>
+
 
                             </div>
                             <div class="table-wrapper">
@@ -690,36 +710,43 @@
                                 </div>
                                 <div>
                                     <h4>Stok Bekleyenler</h4>
-                                <p>Web mağaza ve diğer platformlardan gelen stok talepleri ve taleplerin durumları.</p>
+                                    <p>Web mağaza ve diğer platformlardan gelen stok talepleri ve taleplerin durumları.
+                                    </p>
                                 </div>
-                                <div><button><img  src="img/buton1.png" > <img style="margin-right: 6px; margin-left: -6px;" src="img/buton2.png" >Güncelle</button></div>
-                               
+                                <div><button><img src="img/buton1.png"> <img
+                                            style="margin-right: 6px; margin-left: -6px;"
+                                            src="img/buton2.png">Güncelle</button></div>
+
 
                             </div>
                             <div class="table-wrapper">
                                 <div>
                                     <img src="img/icon9.png">
                                 </div>
-                              <div>
-                                <h4>İndirim Bekleyenler</h4>
-                                <p>Müşterileriniz tarafından indirim beklenen ürünler.</p>
-                              </div>
-                              <div><button><img  src="img/buton1.png" > <img style="margin-right: 6px; margin-left: -6px;" src="img/buton2.png" >Güncelle</button></div>
-                               
+                                <div>
+                                    <h4>İndirim Bekleyenler</h4>
+                                    <p>Müşterileriniz tarafından indirim beklenen ürünler.</p>
+                                </div>
+                                <div><button><img src="img/buton1.png"> <img
+                                            style="margin-right: 6px; margin-left: -6px;"
+                                            src="img/buton2.png">Güncelle</button></div>
+
 
                             </div>
                             <div class="table-wrapper">
                                 <div style=" padding-right: 10px ;display: flex; ">
-                                <img style="z-index: -1;" src="img/icon10.1.png">
-                                 <img style="margin-left: -20px; margin-top: -10px;" src="img/icon10.2.png">
-                                    
+                                    <img style="z-index: -1;" src="img/icon10.1.png">
+                                    <img style="margin-left: -20px; margin-top: -10px;" src="img/icon10.2.png">
+
                                 </div>
                                 <div>
-                                     <h4>Web Mağaza İade Talepleri</h4>
-                                <p>Web mağaza aracılığı ile oluşturulan iade talepleri.</p>
+                                    <h4>Web Mağaza İade Talepleri</h4>
+                                    <p>Web mağaza aracılığı ile oluşturulan iade talepleri.</p>
                                 </div>
-                                <div><button><img  src="img/buton1.png" > <img style="margin-right: 6px; margin-left: -6px;" src="img/buton2.png" >Güncelle</button></div>
-                               
+                                <div><button><img src="img/buton1.png"> <img
+                                            style="margin-right: 6px; margin-left: -6px;"
+                                            src="img/buton2.png">Güncelle</button></div>
+
                             </div>
                         </div>
                     </div>
@@ -736,6 +763,7 @@
     <script src="js/row1-leftside-graphics.js"></script>
     <script src="js/row2-graphic.js"></script>
     <script src="js/row3-graphic.js"></script>
+    <script src="js/filter.js"></script>
 
 </body>
 
