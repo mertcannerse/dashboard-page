@@ -89,9 +89,6 @@ let chart = new Chart(ctx1, {
               label += new Intl.NumberFormat({}).format(chart.parsed.y);
             }
 
-            return label;
-          },
-          label1: function (chart) {
             let label1 = chart.dataset.label[1] || "";
 
             if (label1) {
@@ -102,7 +99,7 @@ let chart = new Chart(ctx1, {
               label1 += new Intl.NumberFormat({}).format(chart.parsed.y);
             }
 
-            return label1;
+            return label + " " + label1;
           },
         },
       },
