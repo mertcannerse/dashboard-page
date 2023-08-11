@@ -78,6 +78,9 @@ let chart = new Chart(ctx1, {
       },
       tooltip: {
         callbacks: {
+          title: function (tooltipItems, data) {
+            return "";
+          },
           label: function (chart) {
             let label = chart.dataset.label[0] || "";
 
