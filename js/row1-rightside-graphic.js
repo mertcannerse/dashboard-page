@@ -95,8 +95,8 @@ let chart = new Chart(ctx1, {
               label1 += ": ";
             }
 
-            if (chart.parsed.y !== null) {
-              label1 += new Intl.NumberFormat({}).format(chart.parsed.y);
+            if (chart.parsed.x !== null) {
+              label1 += new Intl.NumberFormat({}).format(chart.parsed.x);
             }
 
             return label + " " + label1;
