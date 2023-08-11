@@ -16,6 +16,13 @@ var opts = {
   generateGradient: true,
   highDpiSupport: true, // High resolution support
 
+  staticLabels: {
+    font: "12px sans-serif", // Specifies font
+    labels: [0, 15, 30, 45, 60, 75, 100], // Print labels at these values
+    color: "#31E1D7", // Optional: Label text color
+    fractionDigits: 0, // Optional: Numerical precision. 0=round off.
+  },
+
   staticZones: [
     { strokeStyle: "#00E1D7", min: 0, max: 15, height: 0.3 }, // Red from 100 to 130
     { strokeStyle: "#0BBED5", min: 15, max: 30, height: 0.4 }, // Yellow
