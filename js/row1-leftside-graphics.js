@@ -23,7 +23,7 @@ const data = {
             fill: false,
             borderColor: "#F83000",
             tension: 0.1,
-            pointRadius: 0,
+            pointRadius: 1,
         },
     ],
 };
@@ -44,6 +44,10 @@ const config = {
             legend: {
                 display: false,
             },
+            tooltip: {  // Tooltip eklentisini etkinleştirin
+                enabled: true,
+                mode: 'nearest',  // En yakın veri noktasını seçmek için
+            },
         },
     },
 };
@@ -62,7 +66,7 @@ const data1 = {
             fill: false,
             borderColor: "#F87600",
             tension: 0.1,
-            pointRadius: 0,
+            pointRadius: 1,
         },
     ],
 };
@@ -82,6 +86,10 @@ const config1 = {
             legend: {
                 display: false,
             },
+            tooltip: {  // Tooltip eklentisini etkinleştirin
+                enabled: true,
+                mode: 'nearest',  // En yakın veri noktasını seçmek için
+            },
         },
     },
 };
@@ -100,7 +108,7 @@ const data2 = {
             fill: false,
             borderColor: "#4BBBCE",
             tension: 0.1,
-            pointRadius: 0,
+            pointRadius: 1,
         },
     ],
 };
@@ -121,6 +129,10 @@ const config2 = {
             legend: {
                 display: false,
             },
+            tooltip: {  // Tooltip eklentisini etkinleştirin
+                enabled: true,
+                mode: 'nearest',  // En yakın veri noktasını seçmek için
+            },
         },
     },
 };
@@ -138,7 +150,7 @@ const data4 = {
             fill: false,
             borderColor: "#00BE83",
             tension: 0.1,
-            pointRadius: 0,
+            pointRadius: 1,
         },
     ],
 };
@@ -158,6 +170,10 @@ const config4 = {
             legend: {
                 display: false,
             },
+            tooltip: {  // Tooltip eklentisini etkinleştirin
+                enabled: true,
+                mode: 'nearest',  // En yakın veri noktasını seçmek için
+            },
         },
     },
 };
@@ -165,6 +181,9 @@ let cicekSepeti = new Chart(document.getElementById("cicekSepeti"), config4);
 // CİCEKSEPETİ END
 
 // N11 START
+// Chart.js eklentisini projenize eklediğinizden emin olun.
+// chartjs-plugin-tooltip eklentisini kullanabilmek için ayrıca Chart.js sürümünüzün 3.0 veya üstü olması gerekebilir.
+
 const data5 = {
     labels: labels,
     datasets: [
@@ -174,10 +193,11 @@ const data5 = {
             fill: false,
             borderColor: "purple",
             tension: 0.1,
-            pointRadius: 0,
+            pointRadius: 1,
         },
     ],
 };
+
 const config5 = {
     type: "line",
     data: data5,
@@ -194,8 +214,14 @@ const config5 = {
             legend: {
                 display: false,
             },
+            tooltip: {  // Tooltip eklentisini etkinleştirin
+                enabled: true,
+                mode: 'nearest',  // En yakın veri noktasını seçmek için
+            },
         },
     },
 };
+
 let n11 = new Chart(document.getElementById("n11"), config5);
+
 // N11 END
