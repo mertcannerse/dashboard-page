@@ -27,7 +27,7 @@ let chart = new Chart(ctx1, {
           [10, 12],
           [12, 14],
         ],
-        label: ["0.20", "21.45", "22.50", "23.40"],
+        label: ["Sipariş", "Ürün"],
         backgroundColor: [
           "#BACCEA",
           "#8FB4EF",
@@ -74,8 +74,38 @@ let chart = new Chart(ctx1, {
     },
     plugins: {
       legend: {
-        display: false
-      }
-    }
+        display: false,
+      },
+      tooltip: {
+        callbacks: {
+          label: function (chart) {
+            let label = chart.dataset.label[0] || "";
+
+            if (label) {
+              label += ": ";
+            }
+
+            if (chart.parsed.y !== null) {
+              label += new Intl.NumberFormat({}).format(chart.parsed.y);
+            }
+
+            return label;
+          },
+          label1: function (chart) {
+            let label1 = chart.dataset.label[1] || "";
+
+            if (label1) {
+              label1 += ": ";
+            }
+
+            if (chart.parsed.y !== null) {
+              label1 += new Intl.NumberFormat({}).format(chart.parsed.y);
+            }
+
+            return label1;
+          },
+        },
+      },
+    },
   },
 });
