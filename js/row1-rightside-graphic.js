@@ -26,7 +26,7 @@ let chart = new Chart(ctx1, {
           [8, 10],
           [10, 12],
           [12, 14],
-        ], // Verileri tersine çevir
+        ],
         label: ["0.20", "21.45", "22.50", "23.40"],
         backgroundColor: [
           "#BACCEA",
